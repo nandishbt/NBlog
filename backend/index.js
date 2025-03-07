@@ -36,3 +36,12 @@ connectDb()
 })
 
 
+import userRouter from './routes/user.route.js'
+import { sendMail } from './utils/sendEmail.js'
+
+app.use('/api/users', userRouter)
+
+sendMail('nandishbt2001@gmail.com',525252)
+
+
+
