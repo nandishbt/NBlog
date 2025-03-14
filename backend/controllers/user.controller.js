@@ -30,6 +30,10 @@ const updateProfile = async (req,res)=>{
 const updateProfilePicture = async (req,res)=>{
 } 
 
+const updateCoverImage = async (req,res) =>{
+
+}
+
 const deleteUser = async (req,res)=>{
 
 }
@@ -42,6 +46,7 @@ export {
     updateProfile,
     updateProfilePicture,
     deleteUser,
+    updateCoverImage
  
 }
 
